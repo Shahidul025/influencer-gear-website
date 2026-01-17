@@ -1,7 +1,50 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .work-sans-font{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+
+/* header section */
+
+.products-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 87px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.products-title ul{
+    display: flex;
+    gap: 34px;
+    list-style: none;
+    padding-right: 120px;
+   
+}
+
+
+li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3A3A3A;
+    
+}
+
+
+
+/* header banner section */
+
+.banner-container{
+    
+}
+
