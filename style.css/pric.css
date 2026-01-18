@@ -23,6 +23,20 @@
     
 }
 
+.products-title h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-content p{
+    font-size: 16;
+    font-weight: 600px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
 .products-title ul{
     display: flex;
     gap: 34px;
@@ -41,10 +55,71 @@ li a{
 }
 
 
-
 /* header banner section */
 
-.banner-container{
+
+.banner-section{
+    
+    margin: 42px 132px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+    gap: 133px;
     
 }
+
+.banner-content h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+
+.btn{
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+
+
+/* media responsive section */
+
+
+@media screen and (max-width:576px) {
+    .banner-section {
+        flex-direction: column;
+      
+       
+    }
+
+    .products-title{
+       flex-direction: column;
+       font-size: 2.5rem;
+    }
+
+    .products-title ul{
+        flex-direction: column;
+        gap: 0px;
+        padding-right: 250px;
+    }
+
+    .products-title h3{
+        padding-right: 140px;
+    }
+
+    .banner-content h1{
+        padding-top: 0px;
+    }
+
+}
+
+   
+
 
