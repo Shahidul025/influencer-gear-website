@@ -87,6 +87,31 @@ li a{
 
 
 
+/* logo section */
+
+#logo{
+    max-width: 1110px;
+    height: 110px;
+    padding-left: 36px 61px 0 36px;
+    display: flex;
+    margin: 0 auto;
+    
+    /* background-color: #E02C6D; */
+        
+}
+
+
+#logo .logo-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+    margin-top: 100px;
+
+
+
+}
+
 
 
 /* media responsive section */
@@ -116,6 +141,15 @@ li a{
 
     .banner-content h1{
         padding-top: 0px;
+    }
+
+    #logo .logo-icons{
+        flex-direction: column;
+        display: flex;
+        gap: 15px;
+        max-width: 300px;
+       
+
     }
 
 }
